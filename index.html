@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <label for="confirm">Confirm Password</label>
+            <input id="confirm" name="confirm" type="password">
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
